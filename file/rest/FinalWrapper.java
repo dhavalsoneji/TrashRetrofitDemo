@@ -1,0 +1,12 @@
+package com.provoyants.iper.rest;
+
+/**
+ * Created by Dhaval Soneji Riontech on 9/11/16.
+ */
+public class FinalWrapper<T> {
+    public final T value;
+
+    public FinalWrapper(T value) {
+        this.value = value;
+    }
+}
