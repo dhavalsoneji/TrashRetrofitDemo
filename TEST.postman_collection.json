@@ -1,0 +1,72 @@
+{
+	"id": "e5cd4f11-9f61-386e-5f91-1f646eea3f4b",
+	"name": "TEST",
+	"description": "",
+	"order": [
+		"fa282395-592e-e4e0-181f-d19298422618",
+		"4747427d-3b4c-1dae-4480-cbd99d0a9610"
+	],
+	"folders": [],
+	"timestamp": 1491226406476,
+	"owner": "499066",
+	"public": false,
+	"requests": [
+		{
+			"id": "4747427d-3b4c-1dae-4480-cbd99d0a9610",
+			"headers": "X-Auth: WKx0V4aULbHT8gf6i4fgDA&gws\n",
+			"url": "http://addonwebsolutions.net/mychatapp/mahesh_test/objects.php",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "function",
+					"value": "login",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mail_id",
+					"value": "mitesh@addonwebsolutions.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1491240161328,
+			"name": "Login",
+			"description": "",
+			"collectionId": "e5cd4f11-9f61-386e-5f91-1f646eea3f4b",
+			"responses": []
+		},
+		{
+			"id": "fa282395-592e-e4e0-181f-d19298422618",
+			"headers": "X-Auth: WKx0V4aULbHT8gf6i4fgDA&gws\n",
+			"url": "http://addonwebsolutions.net/mychatapp/mahesh_test/objects.php?function=dashboard",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1491239763680,
+			"name": "Dashboard",
+			"description": "",
+			"collectionId": "e5cd4f11-9f61-386e-5f91-1f646eea3f4b",
+			"responses": []
+		}
+	]
+}
